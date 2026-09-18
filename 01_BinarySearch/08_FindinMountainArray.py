@@ -9,7 +9,7 @@
 #    def length(self) -> int:
 
 class Solution:
-    def findInMountainArray(self, target: int, mountainArr: 'MountainArray') -> int:
+    def findInMountainArray(self, target: int, mountainArr: 'MountainArray') -> int: # type: ignore
         n = mountainArr.length()
         cache = {}
 
